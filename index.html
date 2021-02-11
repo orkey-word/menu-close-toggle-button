@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+ <meta charset="utf-8">
+ <title>menu-close</title>
+ <link rel="stylesheet" href="style.css">
+ <script>console.log("to work on chrome");</script>
+ <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+  <div class="menu">
+   <p>Menu</p>
+   <p>Close</p>
+  </div>
+
+ <script type="text/javascript">
+ $(document).ready(function() {
+  $('.menu').click(function() {
+   $('.menu').toggleClass('active')
+  });
+ });
+ </script>
+</body>
+
+</html>
